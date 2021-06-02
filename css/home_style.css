@@ -1,0 +1,96 @@
+.logo img{
+    width: 50px;
+    float: left;
+    
+}
+.logo_name{
+    margin-left: 15px;
+    float: left;
+    margin-top: 12px;
+    color: white;
+}
+.logo{
+    position: absolute;
+    width: 245px;
+    margin-left: 0px;
+    /*float: left;*/
+}
+.profile{
+    float: right;
+}
+.profile_img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.username{
+    color: dodgerblue;
+}
+.username:hover{
+    color: rgb(0, 255, 34);
+}
+.profile_name{
+    color: darkgray;
+}
+.bg{
+    background: url("../img/book4.png");
+    width: 100%;
+    background-size: 100%;
+    
+}
+.footer{
+    display: block;
+    height: auto;
+    padding: 5px;
+    float: left;
+    position: initial;
+    bottom: 0px;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.form-group label{
+    color: rgb(172, 172, 172);
+}
+.fa-eye{
+    position: absolute;
+    left: 89%;
+    margin-top: -27px;
+    opacity: 0.5;
+    scale: 0.8;
+}
+.fa-eye-slash{
+    position: absolute;
+    left: 89%;
+    margin-top: -27px;
+    scale: 0.8;
+    opacity: 0.5;
+}
+.hidden{
+    display: none;
+}
+.bg_body{
+    background-color: rgb(236, 236, 236,0.5);;
+}
+.max_height{
+    max-height:500px;
+    overflow-y: scroll;
+}
+@media only screen and (max-width: 576px){
+    .logo{
+        position: relative;
+        width: 245px;
+        margin: auto;
+        /*float: left;*/
+    }
+    .profile{
+        position: relative;
+        margin: auto;
+        float: none;
+        /*float: right;*/
+    }
+}
+

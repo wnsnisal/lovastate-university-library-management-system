@@ -1,0 +1,32 @@
+.logo img{
+    width: 50px;
+    float: left;
+    
+}
+.logo_name{
+    margin-left: 15px;
+    float: left;
+    margin-top: 12px;
+    color: white;
+}
+.logo{
+    display: block;
+    width: 245px;
+    margin: auto;
+    position: relative;
+    /*float: left;*/
+}
+.fa-eye{
+    position: absolute;
+    left: 83%;
+    margin-top: -27px;
+    opacity: 0.5;
+    scale: 0.8;
+}
+.fa-eye-slash{
+    position: absolute;
+    left: 83%;
+    margin-top: -27px;
+    opacity: 0.5;
+    scale: 0.8;
+}

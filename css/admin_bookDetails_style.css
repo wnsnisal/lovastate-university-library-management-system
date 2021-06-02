@@ -1,0 +1,29 @@
+.max_height{
+    max-height:500px;
+    overflow-y: scroll;
+}
+.div{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(212, 212, 212, 0.3);
+}
+.navbar{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.tblBookDetails{
+    font-size: 16px;
+}
+#btnSelect{
+    padding: 5px;
+    font-size: 12px;
+}
+@media only screen and (max-width: 768px){
+    .tblBookDetails{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .tblBookDetails{
+        font-size: 12px;
+    }
+}
